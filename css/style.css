@@ -1,0 +1,37 @@
+#clock{
+    background-image: url('../img/clock.jpeg');
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    margin: 100px auto;
+    position: relative;
+}
+#h,#m,#s{
+    height: 200px;
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    transform-origin: bottom;
+}
+#s{
+    height: 160px;
+    width: 2px;
+    background-color:black;
+    top: 10%;
+    left: 50%;
+}
+#m{
+    height: 140px;
+    width: 4px;
+    background-color: black;
+    left: 50%;
+    top: 15%;
+}
+#h{
+    height: 110px;
+    width: 6px;
+    background-color: black;
+    top: 22%;
+    left: 49.7%;
+}
